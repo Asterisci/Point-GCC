@@ -1,9 +1,9 @@
 # Point-GCC: Geometry-Color Contrast
 
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/point-gcc-universal-self-supervised-3d-scene/unsupervised-3d-semantic-segmentation-on)](https://paperswithcode.com/sota/unsupervised-3d-semantic-segmentation-on?p=point-gcc-universal-self-supervised-3d-scene)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/point-gcc-universal-self-supervised-3d-scene/3d-object-detection-on-s3dis)](https://paperswithcode.com/sota/3d-object-detection-on-s3dis?p=point-gcc-universal-self-supervised-3d-scene)
-
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/point-gcc-universal-self-supervised-3d-scene/3d-object-detection-on-sun-rgbd-val)](https://paperswithcode.com/sota/3d-object-detection-on-sun-rgbd-val?p=point-gcc-universal-self-supervised-3d-scene)
-
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/point-gcc-universal-self-supervised-3d-scene/3d-object-detection-on-scannetv2)](https://paperswithcode.com/sota/3d-object-detection-on-scannetv2?p=point-gcc-universal-self-supervised-3d-scene)
 
 This repository contains the implementation of the paper [**Point-GCC: Universal Self-supervised 3D Scene Pre-training via Geometry-Color Contrast**](https://arxiv.org/abs/2305.19623).
@@ -27,7 +27,7 @@ If you find our work helpful for your research. Please consider citing our paper
 
 ## Acknowledgement
 
-Our code is based on [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/). Thanks to all.
+Our code is based on [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/). Thanks for their wonderful work!
 
 ## License
 
