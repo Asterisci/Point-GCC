@@ -1,16 +1,23 @@
 # Point-GCC: Geometry-Color Contrast
-
-	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/point-gcc-universal-self-supervised-3d-scene/unsupervised-3d-semantic-segmentation-on)](https://paperswithcode.com/sota/unsupervised-3d-semantic-segmentation-on?p=point-gcc-universal-self-supervised-3d-scene)\
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/point-gcc-universal-self-supervised-3d-scene/3d-object-detection-on-s3dis)](https://paperswithcode.com/sota/3d-object-detection-on-s3dis?p=point-gcc-universal-self-supervised-3d-scene)\
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/point-gcc-universal-self-supervised-3d-scene/3d-object-detection-on-sun-rgbd-val)](https://paperswithcode.com/sota/3d-object-detection-on-sun-rgbd-val?p=point-gcc-universal-self-supervised-3d-scene)\
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/point-gcc-universal-self-supervised-3d-scene/3d-object-detection-on-scannetv2)](https://paperswithcode.com/sota/3d-object-detection-on-scannetv2?p=point-gcc-universal-self-supervised-3d-scene)
 
-This repository contains the implementation of the paper [**Point-GCC: Universal Self-supervised 3D Scene Pre-training via Geometry-Color Contrast**](https://arxiv.org/abs/2305.19623).
+> [**Point-GCC: Universal Self-supervised 3D Scene Pre-training via Geometry-Color Contrast**](https://arxiv.org/abs/2305.19623) <br>
+> [Guofan Fan](https://github.com/Asterisci), [Zekun Qi](https://scholar.google.com/citations?user=ap8yc3oAAAAJ), [Wenkai Shi](https://github.com/yibai-shi) and [Kaisheng Ma](http://group.iiis.tsinghua.edu.cn/~maks/leader.html) <br>
 
+This repository contains the implementation of the paper **Point-GCC: Universal Self-supervised 3D Scene Pre-training via Geometry-Color Contrast**.
+
+[arXiv](https://arxiv.org/abs/2305.19623)
+
+## Point-GCC
 ![paper](./fig/overview.png)
 
 Official Code is coming soon. 
+
+## News
+- 💥 Jun, 2023: Check out our previous work [**Language-Assisted 3D**](https://arxiv.org/abs/2305.19623), [**ACT**](https://arxiv.org/abs/2212.08320), and [**ReCon**](https://arxiv.org/abs/2302.02318), which have been accepted by AAAI, ICLR, and ICML 2023 respectively.
 
 ## Cite
 
