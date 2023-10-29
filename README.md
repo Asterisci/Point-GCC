@@ -14,9 +14,10 @@ This repository contains the implementation of the paper **Point-GCC: Universal 
 ## Point-GCC
 ![paper](./fig/overview.png)
 
-Official Code is coming soon. 
+For those interested, we update a **pre-release** [code](./code/README.md) of the preprint paper. Be careful to use it because lacks code cleanup and may be modified in final version.
 
 ## News
+- 🔥 Oct, 2023: For those interested, we update a **pre-release** [code](./code/README.md) of the preprint paper.
 - 💥 Jun, 2023: Check out our previous work [**Language-Assisted 3D**](https://arxiv.org/abs/2305.19623), [**ACT**](https://arxiv.org/abs/2212.08320), and [**ReCon**](https://arxiv.org/abs/2302.02318), which have been accepted by AAAI, ICLR, and ICML 2023 respectively.
 
 ## Cite
