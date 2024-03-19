@@ -133,5 +133,16 @@ body {
   font-size: smaller;
 }
 
+.images-container {
+  display: flex;             /* 开启 Flexbox 布局 */
+  justify-content: space-around; /* 图片间平均分布空间 */
+  align-items: center;       /* 垂直居中对齐 */
+  gap: 10px;                 /* 图片之间的间隔 */
+  width: 100%;                /* 容器宽度为父元素的 80% */
+  margin: 0 0;            /* 水平居中容器 */
+}
 
+.images-container img {
+  width: 50%;                /* 每张图片占容器宽度的 50% */
+}
 
