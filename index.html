@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>AP-CLIP</title>
+  <title>Point-GCC</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,87 +52,52 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-<!--             <div class="title is-1 publication-title" style="display: flex; align-items: center; justify-content: center;">
-              <img src="static/images/logo.png" alt="Symbol-LLM Logo" style="max-width: 100px; max-height: 100px;">
-              Symbol-LLM: Towards Foundational Symbol-centric Interface For Large Language Models
-            </div> -->
             <h1 class="title is-1 publication-title">
-              Generating Action-conditioned Prompts for Open-vocabulary Video Action Recognition
+                Point-GCC: Universal Self-supervised 3D Scene Pre-training via Geometry-Color Contrast
             </h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
-              <span class="author-block">
-                <a href="https://chengyou-jia.github.io/" target="_blank">Chengyou Jia</a><sup>1,2</sup>,</span>
                 <span class="author-block">
-                  <a href="#" target="_blank">Minnan Luo</a><sup>1,*</sup>,</span>
-                  <span class="author-block">
-                    <a href="#" target="_blank">Xiaojun Chang</a><sup>2</sup>,</span>
-                    <span class="author-block">
-                     <a href="#" target="_blank">Zhuohang Dang</a><sup>1</sup>,</span>
-                     <span class="author-block">
-                      <a href="#" target="_blank">Mingfei Han</a><sup>2</sup>,</span>
-                      <span class="author-block">
-                       <a href="#" target="_blank">Mengmeng Wang</a><sup>3</sup>,</span>
-                       <span class="author-block">
-                        <a href="#" target="_blank">Guang Dai</a><sup>4</sup>,</span>
-                        <span class="author-block">
-                         <a href="#" target="_blank">Sizhe Dang</a><sup>1</sup>,</span>
-                         <span class="author-block">
-                          <a href="#" target="_blank">Jingdong Wang</a><sup>5</sup></span>
-                  </div>
+                    <a href="https://asterisci.github.io/" target="_blank">Guofan Fan</a><sup>1,2</sup>,
+                </span>
+                <span class="author-block">
+                    <a href="https://qizekun.github.io/" target="_blank">Zekun Qi</a><sup>1,2</sup>,
+                </span>
+                <span class="author-block">
+                    <a href="https://github.com/yibai-shi" target="_blank">Wenkai Shi</a><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                     <a href="https://group.iiis.tsinghua.edu.cn/~maks/leader.html" target="_blank">Kaisheng Ma</a><sup>3*</sup>,
+                </span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block"><sup>1</sup>Xi'an Jiaotong University</span> 
-                    <span class="author-block"><sup>2</sup>University of Technology Sydney</span><br>
-                    <span class="author-block"><sup>3</sup>Zhejiang University</span>
-                    <span class="author-block"><sup>4</sup>SGIT AI Lab</span>
-                    <span class="author-block"><sup>5</sup>Baidu Inc</span><br>
-                    <span class="eql-cntrb"><small><sup>*</sup>Corresponding Author.</small></span>
-                  </div>
+            <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Xi'an Jiaotong University</span> 
+            <span class="author-block"><sup>2</sup>IIISCT</span>
+            <span class="author-block"><sup>3</sup>IIIS, Tsinghua University</span><br>
+            <span class="eql-cntrb"><small><sup>*</sup>Corresponding Author.</small></span>
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                      <span class="link-block">
-                          <a href="https://arxiv.org/pdf/2312.02226" target="_blank"
-                              class="external-link button is-normal is-rounded is-dark">
-                              <span class="icon">
-                                  <i class="fas fa-file-pdf"></i>
-                              </span>
-                              <span>Paper</span>
-                          </a>
-                      </span>
-
-                      <!-- Github link -->
-                      <span class="link-block">
-                          <a href="#" target="_blank"
-                              class="external-link button is-normal is-rounded is-dark">
-                              <span class="icon">
-                                  <i class="fab fa-github"></i>
-                              </span>
-                              <span>Code</span>
-                          </a>
-                      </span>
-
-                      <!-- ArXiv abstract Link -->
-                      <span class="link-block">
-                          <a href="https://arxiv.org/abs/2312.02226" target="_blank"
-                              class="external-link button is-normal is-rounded is-dark">
-                              <span class="icon">
-                                  <i class="ai ai-arxiv"></i>
-                              </span>
-                              <span>arXiv</span>
-                          </a>
-                      </span>
-
-                      <span class="link-block">
-                          <a href="#" target="_blank"
-                              class="external-link button is-normal is-rounded is-dark">
-                              <span class="icon">
-                                  🤗
-                              </span>
-                              <span>Data</span>
-                          </a>
-                      </span>
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                    <a href="https://arxiv.org/abs/2305.19623" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>arXiv(soon)</span>
+                    </a>
+                </span>
+                <!-- Github link -->
+                <span class="link-block">
+                    <a href="#" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                            <i class="fab fa-github"></i>
+                        </span>
+                        <span>Code</span>
+                    </a>
+                </span>
               </span>
             </div>
           </div>
@@ -142,10 +107,6 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<!-- End teaser video -->
-
 <!-- Image carousel -->
 <section class="hero">
   <div class="hero-body">
@@ -154,14 +115,16 @@
               <div class="column is-four-fifths">
                   <div class="item">
                       <!-- Your image here -->
-                      <div class="images-container">
-                        <img src="static/images/intro_merge.png" alt="ap-clip" />
-                        <img src="static/images/adv1.png" alt="ap-clip" />
-                    </div>
+                      <!-- <div class="images-container"> -->
+                        <img src="static/images/overview.png" alt="overview" />
+                        <!-- <img src="static/images/adv1.png" alt="ap-clip" /> -->
+                    <!-- </div> -->
                       <h2 class="subtitle" style="font-size: 16px;">
                       </h2>
-                      (1) Left figure provides comparative visualization of prompts and their corresponding match scores. It is evident that prompts incorporating auxiliary knowledge significantly enhance the model's recognition.
-                      （2）  Right figure provides comparative visualization of text embeddings space for different prompts. Action-conditioned prompts offer multi-attribute descriptions of actions, not only establishing connections (dashed blue double arrow) with foundational actions but also providing the necessary knowledge (dashed red ellipse) to discern novel actions.
+                      Point-GCC utilizes the Siamese network
+                      to extract the features of geometry and color with positional embedding respectively. Then we
+                      implement the hierarchical supervision on extracted features which contains point-level contrast and
+                      reconstruct and object-level contrast based on the deep clustering module.
                     </h2>
                   </div>
               </div>
@@ -179,8 +142,20 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Exploring open-vocabulary video action recognition is a promising venture, which aims to recognize previously unseen actions within any arbitrary set of categories. 
-Existing methods typically adapt pretrained image-text models to the video domain, capitalizing on their inherent strengths in generalization. A common thread among such methods is the augmentation of visual embeddings with temporal information to improve the recognition of seen actions. Yet, they compromise with standard less-informative action descriptions, thus faltering when confronted with novel actions. Drawing inspiration from human cognitive processes, we argue that augmenting text embeddings with human prior knowledge is pivotal for open-vocabulary video action recognition. To realize this, we innovatively blend video models with Large Language Models (LLMs) to devise Action-conditioned Prompts. Specifically, we harness the knowledge in LLMs to produce a set of descriptive sentences that contain distinctive features for identifying given actions. Building upon this foundation, we further introduce a multi-modal action knowledge alignment mechanism to align concepts in video and textual knowledge encapsulated within the prompts. Extensive experiments on various video benchmarks, including zero-shot, few-shot, and base-to-novel generalization settings, demonstrate that our method not only sets new SOTA performance but also possesses excellent interpretability.
+            Geometry and color information provided by the point clouds are both crucial
+            for 3D scene understanding. Two pieces of information characterize the different
+            aspects of point clouds, but existing methods lack an elaborate design for the
+            discrimination and relevance. Hence we explore a 3D self-supervised paradigm that
+            can better utilize the relations of point cloud information. Specifically, we propose
+            a universal 3D scene pre-training framework via Geometry-Color Contrast (PointGCC), which aligns geometry and color information using a Siamese network. To
+            take care of actual application tasks, we design (i) hierarchical supervision with
+            point-level contrast and reconstruct and object-level contrast based on the novel
+            deep clustering module to close the gap between pre-training and downstream
+            tasks; (ii) architecture-agnostic backbone to adapt for various downstream models.
+            Benefiting from the object-level representation associated with downstream tasks,
+            Point-GCC can directly evaluate model performance and the result demonstrates
+            the effectiveness of our methods. Transfer learning results on a wide range of
+            tasks also show consistent improvements across all datasets. e.g., new state-of-theart object detection results on SUN RGB-D and S3DIS datasets.
           </p>
         </div>
       </div>
@@ -188,9 +163,6 @@ Existing methods typically adapt pretrained image-text models to the video domai
   </div>
 </section>
 <!-- End paper abstract -->
-
-
-
 
 <section class="hero is-small">
   <div class="hero-body">
@@ -200,33 +172,12 @@ Existing methods typically adapt pretrained image-text models to the video domai
                   <h2 class="title is-3">Overview</h2>
                   <div class="item">
                       <!-- Your image here -->
-                      <img src="static/images/overview1.png" alt="ap-clip" />
+                      <img src="static/images/methods.png" alt="method" />
                       <h2 class="subtitle has-text-centered" style="font-size: 16px;">
-                          Illustration of Action-conditioned Prompts
-                          generation workflow: On the left, the process of defining the <i>Hierarchical Attribute Graph</i> is visualized. The middle section depicts the querying process with LLMs, transforming action and attributes into structured prompts. On the right, we present sample snippets of the prompts generated.
-                      </h2>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-
-
-
-
-
-<section class="hero is-small">
-  <div class="hero-body">
-      <div class="container  is-max-desktop">
-          <div class="columns is-centered has-text-centered">
-              <div class="column is-four-fifths">
-                  <h2 class="title is-3">Results on Base-to-novel Generalization</h2>
-                  <div class="item">
-                      <!-- Your image here -->
-                      <img src="static/images/base-to-novel.png" alt="ap-clip" />
-                      <h2 class="subtitle has-text-centered" style="font-size: 16px;">
-                        We compare the generalization ability of AP-CLIP with other models that adapt CLIP.
+                        (a) The deep clustering module obtains pseudo prediction for different features and enforces
+                        consistent with the swapped partition distribution from the Sinkhorn-Knop algorithm. <br>
+                        (b) Point-GCC
+                        generates the pseudo-labels by utilizing cluster prediction from both branches and projects to groundtruth labels for unsupervised semantic segmentation using Hungarian matching alignment.
                       </h2>
                   </div>
               </div>
@@ -236,16 +187,38 @@ Existing methods typically adapt pretrained image-text models to the video domai
 </section>
 
 <section class="hero is-small">
+    <div class="hero-body">
+        <div class="container  is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">3D Object detection results</h2>
+                    <div class="item">
+                        <!-- Your image here -->
+                        <img src="static/images/res1.png" alt="res1" style="width: 80%;"/>
+                        <h2 class="subtitle has-text-centered" style="font-size: 16px;">
+                            + means
+                            fine-tuning with pre-training on the corresponding dataset. * means that we evaluate the performance
+                            on VoteNet with the stronger MMDetection3D implementation for a fair comparison. † means with
+                            extra training dataset ScanNetV2.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+<section class="hero is-small">
   <div class="hero-body">
       <div class="container  is-max-desktop">
           <div class="columns is-centered has-text-centered">
               <div class="column is-four-fifths">
-                  <h2 class="title is-3">Results on Few-shot setting</h2>
+                  <h2 class="title is-3">3D semantic segmentation results by different level of supervision</h2>
                   <div class="item">
                       <!-- Your image here -->
-                      <img src="static/images/few-shot.png" alt="ap-clip" />
+                      <img src="static/images/res2.png" alt="res2" style="width: 80%;"/>
                       <h2 class="subtitle has-text-centered" style="font-size: 16px;">
-                        We compare the generalization ability of AP-CLIP with other models that adapt CLIP.
+                        + means fine-tuning with pre-training on the corresponding dataset.
                       </h2>
                   </div>
               </div>
@@ -259,12 +232,14 @@ Existing methods typically adapt pretrained image-text models to the video domai
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{jia2023generating,
-      title={Generating Action-conditioned Prompts for Open-vocabulary Video Action Recognition},
-      author={Jia, Chengyou and Luo, Minnan and Chang, Xiaojun and Dang, Zhuohang and Han, Mingfei and Wang, Mengmeng and Dai, Guang and Dang, Sizhe and Wang, Jingdong},
-      journal={arXiv preprint arXiv:2312.02226},
-      year={2023}
-    }</code></pre>
+    <pre><code>
+    @article{point-gcc,
+        title={{Point-GCC:} Universal Self-supervised 3D Scene Pre-training via Geometry-Color Contrast},
+        author={Fan, Guofan and Qi, Zekun and Shi, Wenkai and and Ma, Kaisheng},
+        journal={arXiv preprint arXiv:2305.19623},
+        year={2023}
+    }
+    </code></pre>
   </div>
 </section>
 <!--End BibTex citation -->
